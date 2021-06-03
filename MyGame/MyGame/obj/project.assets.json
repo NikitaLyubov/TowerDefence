@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\программы\\C#\\Игра на юлерн\\MyGame\\MyGame\\MyGame.csproj",
+      "projectUniqueName": "D:\\программы\\TowerDefence\\TowerDefence\\MyGame\\MyGame\\MyGame.csproj",
       "projectName": "MyGame",
-      "projectPath": "D:\\программы\\C#\\Игра на юлерн\\MyGame\\MyGame\\MyGame.csproj",
+      "projectPath": "D:\\программы\\TowerDefence\\TowerDefence\\MyGame\\MyGame\\MyGame.csproj",
       "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-      "outputPath": "D:\\программы\\C#\\Игра на юлерн\\MyGame\\MyGame\\obj\\",
+      "outputPath": "D:\\программы\\TowerDefence\\TowerDefence\\MyGame\\MyGame\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -7,7 +7,7 @@ namespace MyGame
 {
     class Tower
     {
-        public static List<PictureBox> TowerPlaces = new List<PictureBox>()
+        public static readonly List<PictureBox> TowerPlaces = new List<PictureBox>()
         {
             new PictureBox() {Size = new Size(70, 70), Location = new Point(415, 481)},
             new PictureBox() {Size = new Size(70, 70), Location = new Point(813, 568)},
@@ -20,7 +20,7 @@ namespace MyGame
             new PictureBox() {Size = new Size(70, 70), Location = new Point(1440, 595)},
             new PictureBox() {Size = new Size(70, 70), Location = new Point(1268, 345)},
             new PictureBox() {Size = new Size(70, 70), Location = new Point(1539, 345)}
-        };
+        }; // места для башен
         private IEnemy target;
         public PictureBox TowerPictureBox;
         private readonly PictureBox field;
@@ -40,10 +40,12 @@ namespace MyGame
             radius = Math.Sqrt(160 * 160 + 160 * 160);
         }
 
+        //проверка на нахождении врага в радиусе атаки башни
         private bool InAttackRange(IEnemy targetEnemy) =>
             Math.Abs(targetEnemy.Picture.Location.X - TowerPictureBox.Location.X) <= radius
             && Math.Abs(targetEnemy.Picture.Location.Y - TowerPictureBox.Location.Y) <= radius;
 
+        // Закрепление цели на первом вошедшем враге
         public void FindTarget(List<IEnemy> enemies)
         {
             if (target != null && target.Hp > 0 && InAttackRange(target)) 
@@ -70,7 +72,7 @@ namespace MyGame
             }
             projectile = new Projectile(TowerPictureBox.Location, target);
             field.Controls.Add(projectile.ProjectileBox);
-            projectile.Fire();
+            projectile.DestroyEnemy();
         }
     }
 }

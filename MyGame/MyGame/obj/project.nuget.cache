@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QzhtG9bKEr4a4/AFpH991CVVeEyWIowP7TiQ5Dx10sEvAdUfTrDo1ZaOGXouLPtglGofIs0mLIOqFmRUDVOoQg==",
+  "dgSpecHash": "O/YtVQ5VcvKXA82JO8fer/yfc71zQwAea0tr9JV8xe5zbtEBMQIeeYO07UedsM247a3YDM1fYw/zmRn3ebCIOQ==",
   "success": true,
-  "projectFilePath": "D:\\программы\\C#\\Игра на юлерн\\MyGame\\MyGame\\MyGame.csproj",
+  "projectFilePath": "D:\\программы\\TowerDefence\\TowerDefence\\MyGame\\MyGame\\MyGame.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

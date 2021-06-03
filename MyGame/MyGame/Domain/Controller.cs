@@ -14,7 +14,8 @@ namespace MyGame
             this.game = game;
         }
 
-        public void UpdateTowers(Tower tower)
+        // Добавляю башням первоначалный рисунок и ивент на нажатие кноки
+        public void UpgradeTowers(Tower tower)          
         {
             {
                 tower.TowerPictureBox.Image = Resource1.Молоток;
@@ -30,7 +31,8 @@ namespace MyGame
             }
         }
 
-        public void ExitButton(Panel panel)
+        // После проигрыша создается панель, на которой есть кнопка с выходом из игры
+        public void ExitButton(Panel panel)    
         {
             panel.Controls.Add(new TextBox()
             {

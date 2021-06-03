@@ -52,12 +52,11 @@ namespace MyGame
             foreach (var tower in Tower.TowerPlaces.Select(place => new Tower(place, FieldBox, this)))
             {
                 towers.Add(tower);
-                controller.UpdateTowers(tower);
+                controller.UpgradeTowers(tower);
                 FieldBox.Controls.Add(tower.TowerPictureBox);
             }
-            
-            FieldBox.Invalidate();
             Timers();
+            FieldBox.Invalidate();
         }
 
         public void RedrawStats() => gameForm.RedrawStats(Money, Score);
@@ -72,7 +71,7 @@ namespace MyGame
             moveEnemyTimer.Start();
         }
 
-
+        // Добавление врага в лист с интервалом в один тик, для того что бы спавнить их с промежутком во времени 
         private void SpawnAndKill(object sender, EventArgs e)
         {
             if (enemyPosInList < EnemyCreator.Enemies.Count && enemyPosInList >= 0)
@@ -82,12 +81,14 @@ namespace MyGame
                 enemyPosInList++;
             }
 
+            // Запуск поиска цели для выстрела
             foreach (var tower in towers)
             {
                 tower.FindTarget(enemies);
             }
         }
 
+        // Таймер для движения врага и проверки не проиграл ли игрок
         private void Update(object sender, EventArgs e)
         {
             foreach (var enemy in enemies)

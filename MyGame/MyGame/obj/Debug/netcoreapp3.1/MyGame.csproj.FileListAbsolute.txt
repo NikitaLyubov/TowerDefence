@@ -15,3 +15,20 @@ D:\программы\C#\Игра на юлерн\MyGame\MyGame\obj\Debug\netcor
 D:\программы\C#\Игра на юлерн\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.genruntimeconfig.cache
 D:\программы\C#\Игра на юлерн\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.Properties.Resources.resources
 D:\программы\C#\Игра на юлерн\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.Resource1.resources
+D:\программы\TowerDefence\TowerDefence\MyGame\MyGame\bin\Debug\netcoreapp3.1\MyGame.exe
+D:\программы\TowerDefence\TowerDefence\MyGame\MyGame\bin\Debug\netcoreapp3.1\MyGame.deps.json
+D:\программы\TowerDefence\TowerDefence\MyGame\MyGame\bin\Debug\netcoreapp3.1\MyGame.runtimeconfig.json
+D:\программы\TowerDefence\TowerDefence\MyGame\MyGame\bin\Debug\netcoreapp3.1\MyGame.runtimeconfig.dev.json
+D:\программы\TowerDefence\TowerDefence\MyGame\MyGame\bin\Debug\netcoreapp3.1\MyGame.dll
+D:\программы\TowerDefence\TowerDefence\MyGame\MyGame\bin\Debug\netcoreapp3.1\MyGame.pdb
+D:\программы\TowerDefence\TowerDefence\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.csprojAssemblyReference.cache
+D:\программы\TowerDefence\TowerDefence\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.Form1.resources
+D:\программы\TowerDefence\TowerDefence\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.Properties.Resources.resources
+D:\программы\TowerDefence\TowerDefence\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.Resource1.resources
+D:\программы\TowerDefence\TowerDefence\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.csproj.GenerateResource.cache
+D:\программы\TowerDefence\TowerDefence\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.AssemblyInfoInputs.cache
+D:\программы\TowerDefence\TowerDefence\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.AssemblyInfo.cs
+D:\программы\TowerDefence\TowerDefence\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.csproj.CoreCompileInputs.cache
+D:\программы\TowerDefence\TowerDefence\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.dll
+D:\программы\TowerDefence\TowerDefence\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.pdb
+D:\программы\TowerDefence\TowerDefence\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.genruntimeconfig.cache

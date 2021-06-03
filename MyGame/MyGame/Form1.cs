@@ -22,6 +22,7 @@ namespace MyGame
             Controls.Add(game.FieldBox);
         }
 
+        // Обнавление статистики в левом верхнем углу
         public void RedrawStats(int money, int score)
         {
             Stats.Text = $"Money: {money} \n Score: {score}";

@@ -2,8 +2,6 @@
 using System.Windows.Forms;
 using System;
 using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
-using static MyGame.Form1;
 
 namespace MyGame
 {
@@ -12,7 +10,6 @@ namespace MyGame
         Empty,
         Visited,
         Wall,
-        Tower
     }
 
     class Map
@@ -22,26 +19,22 @@ namespace MyGame
 
             "XXXXXXXXXXXXX",
             "XXXXXXXXXXXXX",
-            "X    XXXTTTXX",
-            "  XX TT      ",
-            "XXXT    TTTXX",
-            "XXXXXTTTXXXXX",
+            "X    XXXXXXXX",
+            "  XX XX      ",
+            "XXXX    XXXXX",
+            "XXXXXXXXXXXXX",
             "XXXXXXXXXXXXX"
 
 
         };
 
+        // Поиск пути обходом в ширину
         public static State[,] GetRouteV2(string[] mapState)
         {
             var map = new State[mapState[0].Length, mapState.Length];
-            var towerPlace = new State[mapState[0].Length, mapState.Length];
             for (var x = 0; x < map.GetLength(0); x++)
             for (var y = 0; y < map.GetLength(1); y++)
-            {
                 map[x, y] = mapState[y][x] == ' ' ? State.Empty : State.Wall;
-                towerPlace[x, y] = mapState[y][x] == 'T' ? State.Tower : State.Wall;
-            }
-
             return map;
         }
 
@@ -83,6 +76,7 @@ namespace MyGame
             return CurPoints(points); ;
         }
 
+        // Разбивание пути на маленькие подпути
         public static List<Point> CurPoints(List<Point> wayList)
         {
             var list = new List<Point>();

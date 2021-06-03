@@ -13,6 +13,5 @@ namespace MyGame
         void DeadConflict(IEnemy enemy, Throne throne);
         void MoveToNewPosition(IEnemy enemy);
         bool IsAlive(PictureBox projectile);
-        
     }
 }

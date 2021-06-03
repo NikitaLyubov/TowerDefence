@@ -1,7 +1,4 @@
-﻿
-using System.Collections.Generic;
-using System.Linq;
-using System.Windows.Forms;
+﻿using System.Collections.Generic;
 using MyGame.Enemies;
 
 namespace MyGame
@@ -15,7 +12,7 @@ namespace MyGame
             var enemyList = new List<IEnemy>();
             for (var i = 0; i < 2; i++)
             {
-                for (var j = 0; j < 10; j++)
+                for (var j = 0; j < 20; j++)
                 {
                     if (i == 0)
                         enemyList.Add(new FirstEnemy(7));

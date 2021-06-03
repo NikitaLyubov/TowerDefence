@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 
 namespace MyGame
@@ -11,7 +9,6 @@ namespace MyGame
         private readonly Point spawnPos;
         private readonly Point endPos;
         private readonly IEnemy enemy;
-        //private readonly Controller controller;
         public PictureBox ProjectileBox { get; }
 
         public Projectile(Point spawnPos, IEnemy enemy)
@@ -28,29 +25,29 @@ namespace MyGame
             };
         }
 
-        private void Shoot(PictureBox projectile)
+        // Перемещение снаряда
+        private void Shoot()
         {
             var vec = new Point((endPos.X - spawnPos.X) / 10, (endPos.Y - spawnPos.Y) / 10);
             ProjectileBox.Location = new Point(ProjectileBox.Location.X + vec.X, ProjectileBox.Location.Y + vec.Y);
         }
 
-        public void Fire()
+        // Уничтожение врага
+        public void DestroyEnemy()
         {
-            
             var timer = new Timer() {Interval = 20};
             timer.Start();
             timer.Tick += (sender, args) =>
             {
-                Shoot(ProjectileBox);
+                Shoot();
                 if (Math.Abs(ProjectileBox.Location.X - endPos.X) < 50 && Math.Abs(ProjectileBox.Location.Y - endPos.Y) < 50)
                 {
                     ProjectileBox.Dispose();
 
                     if (!enemy.IsAlive(ProjectileBox))
                     {
-                        //timer.Stop();
+                        timer.Stop();
                         enemy.Picture.Dispose();
-                        
                     }
                 }
             };

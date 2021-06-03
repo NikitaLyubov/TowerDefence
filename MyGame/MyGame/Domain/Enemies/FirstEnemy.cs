@@ -30,17 +30,17 @@ namespace MyGame.Enemies
 
         public void DeadConflict(IEnemy enemy, Throne throne)
         {
-            if (enemy.Picture.Bounds.IntersectsWith(throne.GetPictureBox.Bounds))
-            {
-                throne.Hp--;
-                enemy.Picture.Dispose();
-                index = 0;
-            }
+            if (!enemy.Picture.Bounds.IntersectsWith(throne.GetPictureBox.Bounds))
+                return;
+            throne.Hp--;
+            enemy.Picture.Dispose();
+            index = 0;
         }
 
         public void MoveToNewPosition(IEnemy enemy)
         {
-            if (enemy.Hp <= 0) return;
+            if (enemy.Hp <= 0) 
+                return;
             enemy.Picture.Location = new Point(WayPoints[index].X, WayPoints[index].Y + 50);
             index++;
         }
