@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "fY7wJDqTolWmbCuiFalroI1zLg+LLqoMkxHtzo0SSNm2mIC2eoIGf8wCDHEJEbS5585IqtgBO7iYLxsrc0gCiA==",
+  "success": true,
+  "projectFilePath": "D:\\программы\\C#\\Игра на юлерн\\MyGame\\Tests\\Tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nikita\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Nikita\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Nikita\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512"
+  ],
+  "logs": []
+}

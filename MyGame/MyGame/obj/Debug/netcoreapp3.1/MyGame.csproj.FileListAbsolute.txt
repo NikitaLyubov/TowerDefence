@@ -1,0 +1,17 @@
+D:\программы\C#\Игра на юлерн\MyGame\MyGame\bin\Debug\netcoreapp3.1\MyGame.exe
+D:\программы\C#\Игра на юлерн\MyGame\MyGame\bin\Debug\netcoreapp3.1\MyGame.deps.json
+D:\программы\C#\Игра на юлерн\MyGame\MyGame\bin\Debug\netcoreapp3.1\MyGame.runtimeconfig.json
+D:\программы\C#\Игра на юлерн\MyGame\MyGame\bin\Debug\netcoreapp3.1\MyGame.runtimeconfig.dev.json
+D:\программы\C#\Игра на юлерн\MyGame\MyGame\bin\Debug\netcoreapp3.1\MyGame.dll
+D:\программы\C#\Игра на юлерн\MyGame\MyGame\bin\Debug\netcoreapp3.1\MyGame.pdb
+D:\программы\C#\Игра на юлерн\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.csprojAssemblyReference.cache
+D:\программы\C#\Игра на юлерн\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.Form1.resources
+D:\программы\C#\Игра на юлерн\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.csproj.GenerateResource.cache
+D:\программы\C#\Игра на юлерн\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.AssemblyInfoInputs.cache
+D:\программы\C#\Игра на юлерн\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.AssemblyInfo.cs
+D:\программы\C#\Игра на юлерн\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.csproj.CoreCompileInputs.cache
+D:\программы\C#\Игра на юлерн\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.dll
+D:\программы\C#\Игра на юлерн\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.pdb
+D:\программы\C#\Игра на юлерн\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.genruntimeconfig.cache
+D:\программы\C#\Игра на юлерн\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.Properties.Resources.resources
+D:\программы\C#\Игра на юлерн\MyGame\MyGame\obj\Debug\netcoreapp3.1\MyGame.Resource1.resources
